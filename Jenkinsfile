@@ -29,6 +29,7 @@ agent any
                              retry(2)
                              {
                                echo  " retry test project 111 on server ...."
+                               error " error comment"
                              }
                          }
                      }
