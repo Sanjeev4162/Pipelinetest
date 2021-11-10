@@ -28,13 +28,13 @@ agent any
                              script {
                                       def name = "Manak"
                                       if(name == "Manak")
-                                         println("HEllo $(name)")
+                                      println("Hello ${name}")
                                       else
                                          println("Hoooo")
                                       sleep 2
                                       echo " end of this script"
-                                   }  
-                             }
-                         }
-                    }
-          }
+                                    }  
+                            }
+                      }
+                 }
+     }
