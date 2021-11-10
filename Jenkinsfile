@@ -22,5 +22,20 @@ agent any
                          echo"Deply the result of project 111 on server ...."
                          }
                     }
+                  stage('variable')
+                    {
+                    steps{
+                             script{
+                                      def name = "Manak"
+                                      if (name == "Manak")
+                                         println("HEllo $(name)")
+                                      else
+                                         println("Hoooo")
+                                      sleep 2
+                                      echo " end of this script"
+                                   }  
+                             }
+                         }
+                    }
           }
 }
