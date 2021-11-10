@@ -23,7 +23,7 @@ agent any
                          }
                     {
                     
-                    stage('Deploy1')'
+                    stage('Deploy1')
                      {        
                     steps{
                          retry(2)
