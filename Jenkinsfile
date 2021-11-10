@@ -9,7 +9,7 @@ agent any
                                }      
                     steps{
                          sh 'mvn --version'    
-                         echo"buid the project 111 .."
+                         echo"buid the project 111 ..."
                          }
                     }
                     
