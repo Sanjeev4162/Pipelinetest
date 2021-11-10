@@ -21,6 +21,8 @@ agent any
                     steps{
                          echo"Deply the result of project 111 on server ...."
                          }
+                    {
+                    
                     stage('Deploy1')
                     steps{
                          retry(2)
@@ -28,7 +30,7 @@ agent any
                          echo" retry test project 111 on server ...."
                              }
                          }
-                    }
+                    
                   stage('variable')
                     {
                     steps {
