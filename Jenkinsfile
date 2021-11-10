@@ -24,10 +24,10 @@ agent any
                     }
                   stage('variable')
                     {
-                    steps{
-                             script{
+                    steps {
+                             script {
                                       def name = "Manak"
-                                      if (name == "Manak")
+                                      if(name == "Manak")
                                          println("HEllo $(name)")
                                       else
                                          println("Hoooo")
