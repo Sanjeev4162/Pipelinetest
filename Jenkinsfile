@@ -26,7 +26,7 @@ agent any
                     stage('Retry')
                      {        
                     steps {
-                             retry(2)
+                             retry(4)
                              {
                                echo  " retry test project 111 on server ...."
                                error " error comment"
